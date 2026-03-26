@@ -68,5 +68,71 @@
         <p>Actualizado: 2026-03-26</p>
       </footer>
     </div>
+=======
+  </head>
+  <body>
+    <header>
+      <h1>Portafolio Dev3</h1>
+      <p>Hoja de vida estática (solo HTML).</p>
+    </header>
+
+    <section id="datos-personales">
+      <h2>Datos personales</h2>
+      <ul>
+        <li><strong>Nombre:</strong> [Julian Mera]</li>
+        <li><strong>Email:</strong> <a href="julianmera33@gmail.com">julianmera33@gmail.com</a></li>
+        <li><strong>Ubicación:</strong> [Pasto, Colombia]</li>
+        <li><strong>Teléfono:</strong> [3192193055]</li>
+      </ul>
+    </section>
+
+    <section id="Ingenirero-software">
+      <h2>Perfil profesional</h2>
+      <p>
+        Soy desarrollador front-end con experiencia en crear interfaces web accesibles y
+        responsivas. Me especializo en resolver problemas con HTML semántico, buenas prácticas
+        de estructura y documentación clara para equipos.
+      </p>
+    </section>
+
+    <section id="formacion-academica">
+      <h2>Formación académica</h2>
+      <ul>
+        <li>
+          <strong> Ingeniería de Software</strong> - Universidad Cooperativa de Colombia (2023-2027)
+        </li>
+        <li>
+          <strong>Curso de JavaScript Avanzado</strong> - Plataforma Online ABC (2023)
+        </li>
+        <li>
+          <strong>Diplomado en UX/UI</strong> - Instituto 123 (2022)
+        </li>
+      </ul>
+    </section>
+
+    <section id="proyectos-repositorios">
+      <h2>Proyectos y repositorios</h2>
+      <ul>
+        <li>
+          <a href="https://github.com/Whatfck/portafolio-profesional-estatico-evaluacion" target="_blank" rel="noreferrer">
+            Repositorio del proyecto (este portafolio)
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Whatfck/proyecto-ejemplo-1" target="_blank" rel="noreferrer">
+            Proyecto Ejemplo 1
+          </a>
+        </li>
+        <li>
+          <a href="https://github.com/Whatfck/proyecto-ejemplo-2" target="_blank" rel="noreferrer">
+            Proyecto Ejemplo 2
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <footer>
+      <p>Actualizado: {{ now|date:'Y-m-d' }}</p>
+    </footer>
   </body>
 </html>
