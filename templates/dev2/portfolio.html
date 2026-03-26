@@ -1,3 +1,153 @@
 {% load static %}
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Dev 2</title>
+    <link rel="stylesheet" href="{% static 'css/dev2_styles.css' %}">
+</head>
+<body>
+    <div class="container">
+        <!-- Encabezado / Datos Personales -->
+        <header class="header">
+            <div class="profile-section">
+                <h1 class="name">Daniel Perez</h1>
+                <p class="title">Futuro Ingeniero de Software</p>
+                
+                <div class="contact-info">
+                    <p><strong>Email:</strong> <a href="danieleperez12@gmail.com">danieleperez12@gmail.com</a></p>
+                    <p><strong>Teléfono:</strong> +57 301 3802100</p>
+                    <p><strong>Ubicación:</strong> Pasto, Colombia</p>
+                    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com" target="_blank">Mi Perfil</a></p>
+                    <p><strong>GitHub:</strong> <a href="https://github.com/Whatfck" target="_blank">Mi GitHub</a></p>
+                </div>
+            </div>
+        </header>
+
+        <!-- Perfil Profesional -->
+        <section class="profile-professional">
+            <h2>Perfil Profesional</h2>
+            <p>
+                Soy un profesional apasionado por el desarrollo web con experiencia en tecnologías modernas.
+                Me especializo en crear soluciones eficientes y escalables. Tengo experiencia trabajando en equipo
+                y siempre estoy dispuesto a aprender nuevas tecnologías.
+            </p>
+        </section>
+
+        <!-- Formación Académica -->
+        <section class="education">
+            <h2>Formación Académica</h2>
+            
+            <article class="education-item">
+                <h3>Licenciatura / Ingeniería en Sistemas Computacionales</h3>
+                <p class="institution">Universidad Ejemplo - 2020 a 2024</p>
+                <p class="description">Especialización en desarrollo web y aplicaciones empresariales.</p>
+            </article>
+
+            <article class="education-item">
+                <h3>Curso: Desarrollo Web con Django</h3>
+                <p class="institution">Plataforma Online - 2023</p>
+                <p class="description">Certificación en desarrollo web con Django framework.</p>
+            </article>
+
+            <article class="education-item">
+                <h3>Bootcamp: Full Stack Development</h3>
+                <p class="institution">Academia Técnica - 2022 a 2023</p>
+                <p class="description">Formación intensiva en frontend, backend y bases de datos.</p>
+            </article>
+        </section>
+
+        <!-- Habilidades Técnicas -->
+        <section class="skills">
+            <h2>Habilidades Técnicas</h2>
+            
+            <div class="skill-category">
+                <h3>Frontend</h3>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3</li>
+                    <li>JavaScript</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Backend</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>Django</li>
+                    <li>REST APIs</li>
+                    <li>Git</li>
+                </ul>
+            </div>
+
+            <div class="skill-category">
+                <h3>Otros</h3>
+                <ul>
+                    <li>Metodología Agile</li>
+                    <li>Trabajo en equipo</li>
+                    <li>Inglés (B2)</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Experiencia (opcional pero recomendado) -->
+        <section class="experience">
+            <h2>Experiencia Profesional</h2>
+            
+            <article class="experience-item">
+                <h3>Desarrollador/a Web Frontend</h3>
+                <p class="company">Empresa XYZ - 2023 a Presente</p>
+                <p class="description">Desarrollo de interfaces web responsivas y optimización de rendimiento.</p>
+            </article>
+
+            <article class="experience-item">
+                <h3>Practicante en Desarrollo Web</h3>
+                <p class="company">StartUp ABC - 2022 a 2023</p>
+                <p class="description">Desarrollo de componentes React y integración con APIs REST.</p>
+            </article>
+        </section>
+
+        <!-- Repositorios / Proyectos -->
+        <section class="repositories">
+            <h2>Repositorios y Proyectos</h2>
+            
+            <article class="repo-item">
+                <h3>
+                    <a href="https://github.com/tuusuario/proyecto1" target="_blank">
+                        Nombre del Proyecto 1
+                    </a>
+                </h3>
+                <p class="tech">Tecnologías: HTML, CSS, JavaScript</p>
+                <p class="description">Descripción breve del proyecto que desarrollaste.</p>
+            </article>
+
+            <article class="repo-item">
+                <h3>
+                    <a href="https://github.com/tuusuario/proyecto2" target="_blank">
+                        Nombre del Proyecto 2
+                    </a>
+                </h3>
+                <p class="tech">Tecnologías: Django, Python, PostgreSQL</p>
+                <p class="description">Descripción breve del proyecto que desarrollaste.</p>
+            </article>
+
+            <article class="repo-item">
+                <h3>
+                    <a href="https://github.com/tuusuario/proyecto3" target="_blank">
+                        Nombre del Proyecto 3
+                    </a>
+                </h3>
+                <p class="tech">Tecnologías: React, JavaScript, CSS</p>
+                <p class="description">Descripción breve del proyecto que desarrollaste.</p>
+            </article>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p>&copy; 2024 - Portafolio de Dev 2. Todos los derechos reservados.</p>
+        </footer>
+    </div>
+</body>
 </html>
