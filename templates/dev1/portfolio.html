@@ -1,3 +1,60 @@
 {% load static %}
 <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio - Edwin Santiago Urbina Ruiz</title>
+    <link rel="stylesheet" href="{% static 'dev1/css/style.css' %}">
+</head>
+<body>
+    <header class="portfolio-header">
+        <div class="header-container">
+            <h1 class="name-title">Edwin Santiago Urbina Ruiz</h1>
+            <h2 class="profession-subtitle">Ingeniero de Software</h2>
+            <div class="contact-info">
+                <p>📞 <strong>Teléfono:</strong> 3132615095</p>
+                <p>📧 <strong>Email:</strong> edwin.urbina@example.com (Opcional)</p>
+                <p>💼 <strong>LinkedIn:</strong> <a href="#" target="_blank">linkedin.com/in/edwinsantiagourbina</a></p>
+            </div>
+        </div>
+    </header>
+
+    <main class="portfolio-main">
+        <section class="profile-section card">
+            <h3>Perfil Profesional</h3>
+            <p>
+                Ingeniero de Software con sólidos conocimientos en programación y desarrollo de sistemas.
+                Apasionado por la creación de soluciones de software eficientes, escalables y orientadas a resultados.
+                Capacidad para adaptarme rápidamente a nuevas tecnologías, trabajar en equipo y aportar valor 
+                técnico en todas las fases del ciclo de vida del desarrollo.
+            </p>
+        </section>
+
+        <section class="education-section card">
+            <h3>Formación Académica</h3>
+            <ul class="education-list">
+                <li>
+                    <strong>Ingeniería de Software</strong> - <em>Universidad / Institución</em> (Agrega el año o semestre)
+                </li>
+                <li>
+                    <strong>Bachiller Académico</strong> - <em>Institución Educativa</em> (Opcional)
+                </li>
+            </ul>
+        </section>
+
+        <section class="repositories-section card">
+            <h3>Repositorios Destacados</h3>
+            <p>Puedes conocer más sobre mi trabajo y proyectos en mi GitHub:</p>
+            <a href="https://github.com/TUGITHUB" target="_blank" class="github-link">
+                🔗 Visitar mi perfil de GitHub
+            </a>
+        </section>
+    </main>
+
+    <footer class="portfolio-footer">
+        <p>&copy; 2026 Edwin Santiago Urbina Ruiz. Todos los derechos reservados.</p>
+        <p><em>Rama: feature/dev1-hoja-vida</em></p>
+    </footer>
+</body>
 </html>

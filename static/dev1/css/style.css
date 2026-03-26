@@ -1,0 +1,46 @@
+/* 
+    Sección CSS de Dev1 
+    Aquí se añadirán en la próxima rama (feature/dev1-estilos) 
+    los estilos de tarjeta, sombreado, etc. 
+*/
+
+/* Reset básico para que el HTML no se vea completamente roto antes del PR */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.portfolio-header,
+.portfolio-main,
+.portfolio-footer {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.portfolio-header {
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.portfolio-header a {
+    color: #fff;
+}
+
+.card {
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #ccc; /* Placeholder para el estilo de tarjeta real */
+}
+
+.portfolio-footer {
+    text-align: center;
+    font-size: 0.9em;
+    color: #777;
+}
